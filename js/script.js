@@ -258,7 +258,7 @@ legend3.onAdd = function(map) {
     to = grades[i + 1];
 
     labels.push(
-      '<i style="background:' + brewer3(from + 1) + '"></i> ' +
+      '<i style="background:' + brewer3(from + 10e-5) + '"></i> ' +
       (from*100).toFixed(2) + '%' + (to ? ' &ndash; ' + (to*100).toFixed(2) + '%' : '+'));
   }
 
